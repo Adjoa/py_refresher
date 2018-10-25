@@ -27,4 +27,19 @@ multi-line
 comment!
 """
 
+# Functions
+def hello():
+    print("Hello, world.")
+
+hello()
+hello()
+hello()
+
+def helloSomebody(name="Delia"):
+    return "Hello, {}.".format(name)
+
+greetingOne = helloSomebody("Marge")
+greetingTwo = helloSomebody()
+print(greetingOne)
+print(greetingTwo)
 
