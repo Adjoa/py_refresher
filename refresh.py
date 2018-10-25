@@ -69,3 +69,12 @@ counter = 0
 while counter < 18:
     print(counter)
     counter += 1
+
+# Dictionaries (Hashes, JS Objects)
+candies = {"Snickers": 12, "Milky Way": 7, "Starbursts": 5}
+print(candies)
+print(candies["Milky Way"]) #=> 7
+candies["Jolly Ranchers"] = 9
+print(candies) #=> {'Snickers': 12, 'Milky Way': 7, 'Starbursts': 5, 'Jolly Ranchers': 9}
+del(candies["Starbursts"])
+print(candies) #=> {'Snickers': 12, 'Milky Way': 7, 'Jolly Ranchers': 9}
