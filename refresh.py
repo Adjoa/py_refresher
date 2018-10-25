@@ -78,3 +78,23 @@ candies["Jolly Ranchers"] = 9
 print(candies) #=> {'Snickers': 12, 'Milky Way': 7, 'Starbursts': 5, 'Jolly Ranchers': 9}
 del(candies["Starbursts"])
 print(candies) #=> {'Snickers': 12, 'Milky Way': 7, 'Jolly Ranchers': 9}
+
+# Classes
+class Bunny:
+    # bunnyInfo = "Bunnies are cute."
+
+    def __init__(self, name="George", age=0, color="blue"):
+        self.name = name
+        self.age = age
+        self.color = color
+
+    def hop(self, str):
+        print("Hop!")
+
+# jelly.hop()
+# jelly.name = "Jelly"
+# jelly.age = 12
+# print(Bunny.bunnyInfo)
+
+jelly = Bunny("Jelly", 12, "purple")
+print(jelly.color)
