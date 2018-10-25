@@ -43,3 +43,18 @@ greetingTwo = helloSomebody()
 print(greetingOne)
 print(greetingTwo)
 
+# Lists (Arrays)
+pets = ["Spot", "Fred", "McGee", "Polly"]
+print(pets) #=> ["Spot", "Fred", "McGee", "Polly"]\
+
+pets.insert(0, "Goldie")
+print(pets) #=> ["Goldie", "Spot", "Fred", "McGee", "Polly"]
+
+del(pets[2])
+print(pets) #=> ["Goldie", "Spot", "McGee", "Polly"]
+print(pets[2]) #=> McGee
+print(len(pets)) #=> 4
+
+pets[3] = "Jacks"
+print(pets) #=> ["Goldie", "Spot", "McGee", "Jacks"]
+
