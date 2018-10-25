@@ -58,3 +58,14 @@ print(len(pets)) #=> 4
 pets[3] = "Jacks"
 print(pets) #=> ["Goldie", "Spot", "McGee", "Jacks"]
 
+# Loops
+for pet in pets:
+    print(pet)
+
+for x in range(1,10):
+    print(x)
+#=> 1 2 3 4 5 6 7 8 9
+counter = 0
+while counter < 18:
+    print(counter)
+    counter += 1
